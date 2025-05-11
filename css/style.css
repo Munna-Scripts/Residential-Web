@@ -55,7 +55,6 @@ header{
 /* -----------------Header Ending-------------------- */
 
 /* -----------------Navbar Starting-------------------- */
-
 .call_button a {
     background-color: #8EC46B;
     padding: 19px 30px;
@@ -72,6 +71,26 @@ ul .nav-link{
     font-family: "Rubik", sans-serif;
     font-weight: 400;
 }
+.navbar-nav li a{
+    position: relative;
+}
+.navbar-nav li a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    transform: translate(0);
+    transform-origin: center;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: all ease-in-out 300ms;
+    background: linear-gradient(#8EC46B, #5fe208);
+}
+.navbar-nav li a:hover::after{
+    transform: translate(1);
+    width: 100%;
+}
+/* ------Dropdown-------- */
 .dropdown_menu{
     width: 100%;
     background-color: #151515;
