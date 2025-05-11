@@ -89,6 +89,7 @@ ul .nav-link{
         color: #fcaf17;
         font-family: "Rubik", sans-serif;
         font-weight: 500;
+        position: relative;
     }
 
 }
@@ -100,7 +101,26 @@ ul .nav-link{
     background-color: white;
     padding: 20px 20px;
     border-top: 2px solid #8EC46B;
-    gap: 20px !important;
-    /* display: none !important; */
+    gap: 17px !important;
+    width: 195px;
+    transform: translateY(-15px);
+    transition: all ease-in-out 300ms;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+
+    li a{
+        font-size: 14px;
+    }
 }
+.dri_2{
+    width: 250px;
+    left: -50px;
+}
+.dropdown_menu ul .first_dw:hover .dropdown_inner{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 /* -----------------Navbar Ending-------------------- */
