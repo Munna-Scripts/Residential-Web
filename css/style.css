@@ -1,5 +1,5 @@
 /* ------------------Font Family--------------- */
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 /* ------------------Common Css--------------- */
 body{
     margin: 0;
@@ -10,11 +10,42 @@ body{
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1340px !important;
 }
+ul{
+    list-style: none;
+    margin: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
 /* ------------------Roots--------------- */
 
+/* -----------------Header Starting-------------------- */
+header{
+    display: flex;
+}
 .header_shape {
     width: 30%;
     height: 40px;
     background-color: white;
-    clip-path: polygon(0% 0%, 85% 0, 100% 100%, 72% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 88% 0, 100% 100%, 72% 100%, 0% 100%);
 }
+.header_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 480px;
+}
+.header_links ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header_links ul li a{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+}
+.header_links ul li a .bx{
+    font-size: 18px;
+}
+/* -----------------Header Ending-------------------- */
