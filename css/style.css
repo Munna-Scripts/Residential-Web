@@ -72,4 +72,17 @@ ul .nav-link{
     font-family: "Rubik", sans-serif;
     font-weight: 400;
 }
+.dropdown_menu{
+    width: 100%;
+    background-color: grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.dropdown_menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 25px;
+    cursor: pointer;
+}
 /* -----------------Navbar Ending-------------------- */
