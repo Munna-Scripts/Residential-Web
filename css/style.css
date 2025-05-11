@@ -141,5 +141,20 @@ ul .nav-link{
     opacity: 1;
     transform: translateY(0px);
 }
-
+.dropdown_inner li a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    transform: translate(0);
+    transform-origin: center;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: all ease-in-out 300ms;
+    background: linear-gradient(#8EC46B, #5fe208);
+}
+.dropdown_inner li a:hover::after{
+    transform: translate(1);
+    width: 100%;
+}
 /* -----------------Navbar Ending-------------------- */
