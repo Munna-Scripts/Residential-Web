@@ -5,5 +5,16 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #1F1F1F !important;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1340px !important;
 }
 /* ------------------Roots--------------- */
+
+.header_shape {
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    clip-path: polygon(0% 0%, 85% 0, 100% 100%, 72% 100%, 0% 100%);
+}
