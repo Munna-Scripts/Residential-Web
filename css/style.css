@@ -134,7 +134,7 @@ ul .nav-link{
     justify-content: end;
     gap: 25px;
     cursor: pointer;
-
+    z-index: 999;
     li{
         color: #fcaf17;
         font-family: "Rubik", sans-serif;
@@ -192,23 +192,23 @@ ul .nav-link{
 /* -----------------Banner Starting-------------------- */
 #banner{
     width: 100%;
-    height: 450px;
+    height: 480px;
     position: relative;
-    background: linear-gradient(#F47A1F, #F79B23);
+    background: linear-gradient(#8EC46B, #73f31d);
 }
 .banner_image img {
     width: 60%;
     position: absolute;
     top: 0;
     right: 0;
-    height: 450px;
+    height: 480px;
 }
 .banner_text {
     position: absolute;
     left: 0;
     width: 582px;
-    background-color: #151515;
-    top: 60px;
+    background-color: #000000;
+    top: 50px;
     padding: 30px;
     z-index: 999;
 }
@@ -217,6 +217,27 @@ ul .nav-link{
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     width: 460px;
+}
+.banner_text p{
+    color: white ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 17px;
+    margin-bottom: 38px;
+}
+.banner_button{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+}
+.banner_button a{
+    background-color: #8EC46B;
+    padding: 8px 40px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
 }
 /* -----------------Banner Ending-------------------- */
 
