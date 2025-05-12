@@ -1,58 +1,74 @@
 /* ------------------Font Family--------------- */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* ------------------Common Css--------------- */
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #1F1F1F !important;
 }
-.container, .container-lg, .container-md, .container-sm, .container-xl {
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
     max-width: 1340px !important;
 }
-ul{
+
+ul {
     list-style: none;
     margin: 0 !important;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
+
 /* ------------------Roots--------------- */
 
 /* -----------------Header Starting-------------------- */
-header{
+header {
     display: flex;
 }
+
 .header_shape {
     width: 30%;
     height: 40px;
     background-color: white;
     clip-path: polygon(0% 0%, 88% 0, 100% 100%, 72% 100%, 0% 100%);
 }
+
 .header_links {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 480px;
 }
-.header_links ul{
+
+.header_links ul {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.header_links ul li a{
+
+.header_links ul li a {
     color: white;
     font-family: "Rubik", sans-serif;
     font-size: 14px;
 }
-.header_links ul li a .bx{
+
+.header_links ul li a .bx {
     font-size: 18px;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 265px;
     transform: translate(0px, -20px);
 }
+
 /* -----------------Header Ending-------------------- */
 
 /* -----------------Navbar Starting-------------------- */
@@ -68,44 +84,47 @@ header{
     overflow: hidden;
     transition: all 1000ms;
 
-    .bx{
+    .bx {
         font-size: 25px;
     }
 }
+
 /* ---------button hover effect------- */
 
 .call_button a:hover {
-  color: var(--brand_color);
-  transform: scale(1.03);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color: var(--brand_color);
+    transform: scale(1.03);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .call_button a::before {
-  content: "";
-  position: absolute;
-  left: -50px;
-  top: 0;
-  width: 0;
-  height: 100%;
-  background-color: white;
-  transform: skewX(45deg);
-  z-index: -1;
-  transition: width 1000ms;
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
 }
 
 .call_button a:hover::before {
-  width: 250%;
+    width: 250%;
 }
 
-ul .nav-link{
+ul .nav-link {
     color: black;
     font-family: "Rubik", sans-serif;
     font-weight: 400;
 }
-.navbar-nav li a{
+
+.navbar-nav li a {
     position: relative;
 }
-.navbar-nav li a::after{
+
+.navbar-nav li a::after {
     content: '';
     position: absolute;
     width: 0%;
@@ -117,25 +136,29 @@ ul .nav-link{
     transition: all ease-in-out 300ms;
     background: linear-gradient(#8EC46B, #5fe208);
 }
-.navbar-nav li a:hover::after{
+
+.navbar-nav li a:hover::after {
     transform: translate(1);
     width: 100%;
 }
+
 /* ------Dropdown-------- */
-.dropdown_menu{
+.dropdown_menu {
     width: 100%;
     background-color: #151515;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.dropdown_menu ul{
+
+.dropdown_menu ul {
     display: flex;
     align-items: center;
     justify-content: end;
     gap: 25px;
     cursor: pointer;
     z-index: 999;
-    li{
+
+    li {
         color: #fcaf17;
         font-family: "Rubik", sans-serif;
         font-weight: 500;
@@ -143,7 +166,8 @@ ul .nav-link{
     }
 
 }
-.dropdown_inner{
+
+.dropdown_inner {
     display: flex;
     flex-direction: column;
     align-items: start !important;
@@ -159,20 +183,23 @@ ul .nav-link{
     opacity: 0;
     position: absolute;
 
-    li a{
+    li a {
         font-size: 14px;
     }
 }
-.dri_2{
+
+.dri_2 {
     width: 250px;
     left: -50px;
 }
-.dropdown_menu ul .first_dw:hover .dropdown_inner{
+
+.dropdown_menu ul .first_dw:hover .dropdown_inner {
     visibility: visible;
     opacity: 1;
     transform: translateY(0px);
 }
-.dropdown_inner li a::after{
+
+.dropdown_inner li a::after {
     content: '';
     position: absolute;
     width: 0%;
@@ -184,13 +211,15 @@ ul .nav-link{
     transition: all ease-in-out 300ms;
     background: linear-gradient(#8EC46B, #5fe208);
 }
-.dropdown_inner li a:hover::after{
+
+.dropdown_inner li a:hover::after {
     transform: translate(1);
     width: 100%;
 }
+
 /* -----------------Navbar Ending-------------------- */
 /* -----------------Banner Starting-------------------- */
-#banner{
+#banner {
     width: 100%;
     height: 550px;
     position: relative;
@@ -198,7 +227,8 @@ ul .nav-link{
     background-size: cover;
     background-position: center;
 }
-.banner_text h2{
+
+.banner_text h2 {
     color: white;
     font-family: "Rubik", sans-serif;
     font-size: 14px;
@@ -206,10 +236,12 @@ ul .nav-link{
     align-items: center;
     gap: 10px;
     margin-bottom: 25px;
-    img{
+
+    img {
         width: 40px;
     }
 }
+
 .banner_text {
     position: absolute;
     left: 0;
@@ -221,101 +253,115 @@ ul .nav-link{
     z-index: 999;
     border-top-right-radius: 60px;
 }
+
 .banner_text h1 {
     color: white;
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     width: 490px;
 }
-.banner_text p{
-    color: white ;
+
+.banner_text p {
+    color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     margin-top: 30px;
     font-size: 17px;
     margin-bottom: 38px;
 }
-.banner_button{
+
+.banner_button {
     display: flex;
     align-items: center;
     justify-content: end;
     gap: 30px;
 }
-.banner_button a{
+
+.banner_button a {
     background-color: #8EC46B;
     padding: 8px 40px;
     color: #000;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
 }
-.banner_text{
-  .button {
-  text-decoration: none;
-  line-height: 1;
-  border-radius: 1.5rem;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 10px 10px 20px rgba(0,0,0,.05);
-  background-color: #fff;
-  color: #121212;
-  border: none;
-  cursor: pointer;
-  height: 100%;
+
+.banner_text {
+    .text_buttons {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+    }
+
+    .button {
+        text-decoration: none;
+        line-height: 1;
+        border-radius: 1.5rem;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, .05);
+        background-color: #fff;
+        color: #121212;
+        border: none;
+        cursor: pointer;
+        height: 100%;
+    }
+
+    .button-decor {
+        position: absolute;
+        inset: 0;
+        background-color: var(--clr);
+        transform: translateX(-66%);
+        transition: transform .3s;
+        z-index: 0;
+    }
+
+    .button-content {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .button__icon {
+        width: 48px;
+        height: 40px;
+        background-color: var(--clr);
+        display: grid;
+        place-items: center;
+    }
+
+    .button__text {
+        display: inline-block;
+        transition: color .2s;
+        padding: 2px 1.5rem 2px;
+        padding-left: .75rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 150px;
+    }
+
+    .button:hover .button__text {
+        color: #fff;
+    }
+
+    .button:hover .button-decor {
+        transform: translate(0);
+    }
 }
 
-.button-decor {
-  position: absolute;
-  inset: 0;
-  background-color: var(--clr);
-  transform: translateX(-66%);
-  transition: transform .3s;
-  z-index: 0;
-}
-
-.button-content {
-  display: flex;
-  align-items: center;
-  font-weight: 600;
-  position: relative;
-  overflow: hidden;
-}
-
-.button__icon {
-  width: 48px;
-  height: 40px;
-  background-color: var(--clr);
-  display: grid;
-  place-items: center;
-}
-
-.button__text {
-  display: inline-block;
-  transition: color .2s;
-  padding: 2px 1.5rem 2px;
-  padding-left: .75rem;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  max-width: 150px;
-}
-
-.button:hover .button__text {
-  color: #fff;
-}
-
-.button:hover .button-decor {
-  transform: translate(0);
-}
-}
 /* -----------------Banner Ending-------------------- */
 
 /* -----------------Cards Starting-------------------- */
-#cards{
+#cards {
     margin-top: 20px;
     height: 600px;
     margin-top: 100px;
 }
-.card_des{
+
+.card_des {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,30 +375,33 @@ ul .nav-link{
 
     padding-bottom: 20px;
 }
-.card_des img{
+
+.card_des img {
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     width: 100%;
 }
-.cards_text{
+
+.cards_text {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 30px;
 }
-.card_des p{
+
+.card_des p {
     color: rgb(112, 112, 112);
     padding: 0px 10px;
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
 }
-.card_des a{
+
+.card_des a {
     color: #e01c08;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
+
 /* -----------------Cards Ending-------------------- */
-
-
