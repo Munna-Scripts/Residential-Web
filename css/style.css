@@ -285,7 +285,7 @@ ul .nav-link {
     font-size: 15px;
 }
 
-.banner_text {
+.banner_text, .about_text {
     .text_buttons {
         display: flex;
         align-items: center;
@@ -445,3 +445,30 @@ ul .nav-link {
 	}
 }
 /* -----------------Cards Ending-------------------- */
+/* -----------------About us Starting------------------- */
+#about{
+    margin-top: 500px;
+    background-color: white;
+    width: 100%;
+    padding-top: 50px;
+}
+.about_img1{
+    transform: translateX(17px);
+}
+.about_img1 img{
+    width: 100%;
+}
+.about_text{
+    padding-top: 130px;
+}
+.about_text h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.about_text p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    width: 518px;
+}
+/* -----------------About us Ending-------------------- */
