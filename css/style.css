@@ -461,6 +461,7 @@ ul .nav-link {
 }
 .about_text{
     padding-top: 130px;
+    transform: translateX(50px);
 }
 .about_text h2{
     font-family: "Poppins", sans-serif;
@@ -481,7 +482,7 @@ ul .nav-link {
 .about_row2 .about_text{
     float: right;
     padding-top: 90px;
-
+    transform: translateX(-50px);
 }
 /* -----------------About us Ending-------------------- */
 /* -----------------Portfolio Starting----------------- */
@@ -490,6 +491,10 @@ ul .nav-link {
     background-color: white;
     width: 100%;
     padding-bottom: 50px;
+
+    .about_text{
+        padding-top: 65px;
+    }
 }
 .awards_img img{
     width: 70%;
