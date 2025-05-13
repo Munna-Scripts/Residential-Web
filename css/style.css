@@ -451,6 +451,7 @@ ul .nav-link {
     background-color: white;
     width: 100%;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .about_img1{
     transform: translateX(17px);
@@ -470,5 +471,16 @@ ul .nav-link {
     margin-bottom: 40px;
     font-family: "Poppins", sans-serif;
     width: 518px;
+}
+.about_row2{
+    margin-top: 100px !important;
+}
+.ab2{
+    transform: translateX(-18px);
+}
+.about_row2 .about_text{
+    float: right;
+    padding-top: 90px;
+
 }
 /* -----------------About us Ending-------------------- */
