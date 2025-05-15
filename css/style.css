@@ -381,6 +381,7 @@ ul .nav-link {
     border-top-right-radius: 10px;
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
+    overflow: hidden;
 }
 
 .cards_text {
@@ -483,6 +484,33 @@ ul .nav-link {
     float: right;
     padding-top: 90px;
     transform: translateX(-50px);
+}
+.about_row, .about_text {
+    .button-decor {
+        position: absolute;
+        inset: 0;
+        background-color: var(--clr);
+        transform: translateX(-82%);
+        transition: transform .3s;
+        z-index: 0;
+    }
+    .button__text {
+        display: inline-block;
+        transition: color .2s;
+        padding: 2px 1.5rem 2px;
+        padding-left: .75rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 270px;
+    }
+    .button__icon {
+    width: 48px;
+    height: 40px;
+    background-color: transparent;
+    display: grid;
+    place-items: center;
+}
 }
 /* -----------------About us Ending-------------------- */
 /* -----------------Portfolio Starting----------------- */
