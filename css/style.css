@@ -285,7 +285,8 @@ ul .nav-link {
     font-size: 15px;
 }
 
-.banner_text, .about_text {
+.banner_text,
+.about_text {
     .text_buttons {
         display: flex;
         align-items: center;
@@ -404,88 +405,105 @@ ul .nav-link {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
-.Cards_row2{
+
+.Cards_row2 {
     margin-top: 50px !important;
 }
 
 /* image hover  */
 .card_image figure {
-	position: relative;
+    position: relative;
     overflow: hidden;
     transition: all ease 500ms;
 }
+
 .card_image figure::before {
-	position: absolute;
-	top: 0;
-	left: -75%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 50%;
-	height: 100%;
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	-webkit-transform: skewX(-25deg);
-	transform: skewX(-25deg);
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
 }
+
 .card_image figure:hover::before {
-	-webkit-animation: shine .75s;
-	animation: shine .75s;
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
 }
-.card_image figure:hover{
+
+.card_image figure:hover {
     transform: scale(1.1);
 }
+
 @-webkit-keyframes shine {
-	100% {
-		left: 125%;
-	}
+    100% {
+        left: 125%;
+    }
 }
+
 @keyframes shine {
-	100% {
-		left: 125%;
-	}
+    100% {
+        left: 125%;
+    }
 }
+
 /* -----------------Cards Ending-------------------- */
 /* -----------------About us Starting------------------- */
-#about{
+#about {
     margin-top: 500px;
     background-color: white;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.about_img1{
+
+.about_img1 {
     transform: translateX(17px);
 }
-.about_img1 img{
+
+.about_img1 img {
     width: 100%;
 }
-.about_text{
+
+.about_text {
     padding-top: 130px;
     transform: translateX(50px);
 }
-.about_text h2{
+
+.about_text h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
-.about_text p{
+
+.about_text p {
     margin-top: 40px;
     margin-bottom: 40px;
     font-family: "Poppins", sans-serif;
     width: 518px;
 }
-.about_row2{
+
+.about_row2 {
     margin-top: 100px !important;
 }
-.ab2{
+
+.ab2 {
     transform: translateX(-18px);
 }
-.about_row2 .about_text{
+
+.about_row2 .about_text {
     float: right;
     padding-top: 90px;
     transform: translateX(-50px);
 }
-.about_row, .about_text {
+
+.about_row,
+.about_text {
     .button-decor {
         position: absolute;
         inset: 0;
@@ -494,6 +512,7 @@ ul .nav-link {
         transition: transform .3s;
         z-index: 0;
     }
+
     .button__text {
         display: inline-block;
         transition: color .2s;
@@ -504,61 +523,70 @@ ul .nav-link {
         text-overflow: ellipsis;
         max-width: 270px;
     }
+
     .button__icon {
-    width: 48px;
-    height: 40px;
-    background-color: transparent;
-    display: grid;
-    place-items: center;
+        width: 48px;
+        height: 40px;
+        background-color: transparent;
+        display: grid;
+        place-items: center;
+    }
 }
-}
+
 /* -----------------About us Ending-------------------- */
 /* -----------------Portfolio Starting----------------- */
-#portfolio{
+#portfolio {
     padding-top: 50px;
     background-color: white;
     width: 100%;
     padding-bottom: 50px;
 
-    .about_text{
+    .about_text {
         padding-top: 65px;
     }
+
     .about_row .about_text {
-    .button-decor {
-        position: absolute;
-        inset: 0;
-        background-color: var(--clr);
-        transform: translateX(-76%);
-        transition: transform .3s;
-        z-index: 0;
-    }
-    .button:hover .button-decor {
-        transform: translate(0);
+        .button-decor {
+            position: absolute;
+            inset: 0;
+            background-color: var(--clr);
+            transform: translateX(-76%);
+            transition: transform .3s;
+            z-index: 0;
+        }
+
+        .button:hover .button-decor {
+            transform: translate(0);
+        }
     }
 }
-}
-.awards_img img{
+
+.awards_img img {
     width: 70%;
     margin-bottom: 40px;
 }
-.portfolio_gallery{
+
+.portfolio_gallery {
     margin-top: 100px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 5px;
 
-    .p_img_1{
-     width: 320px;
+    .p_img_1 {
+        width: 320px;
     }
-    .p_img_1 img{
-    width: 100%;
+
+    .p_img_1 img {
+        width: 100%;
     }
 }
-.p_img_1{
+
+.p_img_1 {
     position: relative;
 }
-.p_img_1 .overly_text{
+
+.p_img_1 .overly_text {
     position: absolute;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.541);
@@ -568,7 +596,7 @@ ul .nav-link {
     align-items: center;
     flex-direction: column;
 
-    p{
+    p {
         color: white;
         font-family: "Rubik", sans-serif;
         font-weight: 600;
@@ -576,7 +604,8 @@ ul .nav-link {
         text-align: center;
         margin-bottom: 5px;
     }
-    a{
+
+    a {
         color: #8EC46B;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
@@ -586,7 +615,7 @@ ul .nav-link {
         align-items: center;
         gap: 10px;
 
-        i{
+        i {
             background-color: #8EC46B;
             padding: 5px;
             border-radius: 50%;
@@ -595,11 +624,13 @@ ul .nav-link {
         }
     }
 }
-.p_img_1{
+
+.p_img_1 {
     position: relative;
     overflow: hidden;
 }
-.p_img_1 .hover_overly{
+
+.p_img_1 .hover_overly {
     position: absolute;
     top: 0;
     width: 100%;
@@ -611,7 +642,8 @@ ul .nav-link {
     justify-content: center;
     transform: translateX(-320px);
     transition: all ease 300ms;
-    a{
+
+    a {
         color: #e01c08;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
@@ -621,7 +653,7 @@ ul .nav-link {
         align-items: center;
         gap: 10px;
 
-        i{
+        i {
             background: linear-gradient(#e01c08, #881104);
             padding: 7px;
             border-radius: 50%;
@@ -630,8 +662,9 @@ ul .nav-link {
         }
     }
 }
-.p_img_1:hover .hover_overly{
+
+.p_img_1:hover .hover_overly {
     transform: translateY(0);
 }
-/* -----------------Portfolio Ending------------------- */
 
+/* -----------------Portfolio Ending------------------- */
