@@ -670,17 +670,24 @@ ul .nav-link {
 /* -----------------Portfolio Ending------------------- */
 /* -----------------Testimonials Starting---------------- */
 #testimonials{
-  margin-top: 304px;
-  background-color: #FAFAFA;
+  background-color: #1F1F1F;
   padding-top: 78px;
   padding-bottom: 82px;
 }
+
 .review_card{
   width: 360px;
   height: 366px;
-  border: 1px solid #D8D8D8;
+  border: 1px solid #FCAF17;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
   padding: 52px 22px 51px 34px;
   transition: all 300ms ease-in-out;
+  margin: 0 auto;
+  background-color: white;
 }
 .review_card .stars{
   display: flex;
@@ -729,9 +736,8 @@ ul .nav-link {
  display: flex;
  align-items: center;
  justify-content: center;
- color: var(--brand_color);
  transition: all 500ms ease-in-out;
-
+color: white;
 }
 .prr{
   left: 46%;
@@ -752,7 +758,7 @@ ul .nav-link {
   font-size: 18px;
 }
 .arrows:hover{
-  background-color: #42454A;
+  background-color: #e01c08;
   border: none;
   color: white;
   transform: scale(1.1);
