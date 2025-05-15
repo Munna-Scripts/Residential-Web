@@ -528,5 +528,8 @@ ul .nav-link {
     width: 70%;
     margin-bottom: 40px;
 }
+.portfolio_gallery .port_image img{
+    width: 40%;
+}
 /* -----------------Portfolio Ending------------------- */
 
