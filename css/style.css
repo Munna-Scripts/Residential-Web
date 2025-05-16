@@ -227,7 +227,6 @@ ul .nav-link {
     background-size: cover;
     background-position: center;
 }
-
 .banner_text h2 {
     color: white;
     font-family: "Rubik", sans-serif;
@@ -687,6 +686,9 @@ ul .nav-link {
     width: 40%;
     height: 67%;
 }
+.testimonials_slider{
+    z-index: 999;
+}
 .review_card{
   width: 360px;
   height: 366px;
@@ -695,7 +697,7 @@ ul .nav-link {
   border-bottom-right-radius: 30px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-
+  z-index: 5;
   padding: 51px 22px 51px 22px;
   transition: all 300ms ease-in-out;
   margin: 0 auto;
@@ -752,7 +754,7 @@ ul .nav-link {
 color: white;
 }
 .prr{
-  left: 46%;
+  left: 45%;
   bottom: -80px;
   width: 42px;
   height: 42px;
@@ -761,7 +763,7 @@ color: white;
   font-size: 18px;
 }
 .nrr{
-  right: 46%;
+  right: 45%;
   width: 42px;
   height: 42px;
   bottom: -80px;
