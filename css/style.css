@@ -671,7 +671,7 @@ ul .nav-link {
 #testimonials{
   background-color: #1F1F1F;
   padding-top: 78px;
-  padding-bottom: 82px;
+  padding-bottom: 132px;
   position: relative;
   overflow: hidden;
 }
@@ -782,6 +782,19 @@ color: white;
 }
 /* -----------------Testimonials Ending------------------ */
 /* -----------------Faq Starting------------------------ */
+#fad{
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.fad_header h2{
+    margin-bottom: 40px;
+    color: #282828;
+    font-size: 34px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
 .accordion {
     display: flex;
     flex-direction: column;
@@ -790,7 +803,8 @@ color: white;
 }
 
 .accordion__item {
-    border: 1px solid #e5f3fa;
+    /* border: 1px solid #e5f3fa; */
+    border-bottom: 1px solid #e5f3fa;
     border-radius: 10px;
     overflow: hidden;
 }
