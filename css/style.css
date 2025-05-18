@@ -875,7 +875,7 @@ padding: 20px 25px;
 
 .reserve_info input {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     padding: 20px 25px;
     outline: none;
     background-color: white;
@@ -885,12 +885,12 @@ padding: 20px 25px;
     margin-top: 0px;
     width: 100%;
     text-align: center;
-    background-color: #ED2433;
+    background-color: #8EC46B;
     text-decoration: none;
     color: white;
     padding: 16px 20px;
     border-radius: 6px;
-    box-shadow: 8px 8px 0px #A40C18;
+    box-shadow: 8px 8px 0px #5bcc0f;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 19px;
@@ -906,7 +906,7 @@ padding: 20px 25px;
 /* -----------------Enquire Ending------------------- */
 /* -----------------Footer Starting------------------- */
 footer {
-    margin-top: 170px;
+    margin-top: 80px;
     width: 100%;
     height: 100%;
     background-color: #2C2C2C;
@@ -914,9 +914,7 @@ footer {
     padding-bottom: 30px;
     overflow: hidden;
 }
-.footer_trademark{
-    margin-top: 100px;
-}
+
 .row_1 img {
     width: 150px;
     margin-bottom: 40px;
@@ -942,7 +940,7 @@ footer {
     position: absolute;
     width: 50%;
     height: 2px;
-    background-color: #ED2433;
+    background-color: #8EC46B;
     bottom: 0;
     left: 0;
 }
@@ -976,7 +974,7 @@ footer {
     position: absolute;
     width: 20%;
     height: 2px;
-    background-color: #ED2433;
+    background-color: #8EC46B;
     bottom: 0;
     left: 0;
 }
@@ -1007,11 +1005,11 @@ footer {
 .footer_navLinks button {
     margin-top: 29px;
     width: 90%;
-    background-color: #ED2433;
+    background-color: #8EC46B;
     color: white;
     padding: 15px 0;
     border-radius: 6px;
-    box-shadow: 8px 8px 0px #A40C18;
+    box-shadow: 8px 8px 0px #5bcc0f;
     font-family: "Signika", sans-serif;
     font-weight: 600;
     font-size: 24px;
