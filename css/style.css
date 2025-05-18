@@ -914,54 +914,16 @@ footer {
     padding-bottom: 30px;
     overflow: hidden;
 }
-
+.footer_trademark{
+    margin-top: 100px;
+}
 .row_1 img {
-    width: 202px;
+    width: 150px;
+    margin-bottom: 40px;
 }
-
-.row_1 p {
-    color: white;
-    font-size: 20px;
-    font-family: "Signika", sans-serif;
-    padding-top: 45px;
-    font-weight: 600;
+.row_1 img:nth-child(2){
+    width: 240px;
 }
-
-.row_1 a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    background-color: #ED2433;
-    padding: 15px;
-    border-radius: 37px;
-    font-family: "Signika", sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    margin-top: 24px;
-    transition: all 300ms ease-in-out;
-}
-
-.row_1 a img {
-    width: 25px;
-}
-
-.row_1 .appleStore {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #ED2433;
-    background-color: white;
-    padding: 15px;
-    border-radius: 37px;
-    font-family: "Signika", sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    margin-top: 24px;
-}
-
 .footer_row {
     padding-left: 64px;
 }
