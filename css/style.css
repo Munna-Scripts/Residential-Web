@@ -953,8 +953,11 @@ footer {
     margin-bottom: 0px;
     display: block;
     text-decoration: none;
+    transition: all ease-in-out 300ms;
 }
-
+.footer_row a:hover{
+    color: #5bcc0f;
+}
 .footer_navLinks {
     padding-left: 64px;
 }

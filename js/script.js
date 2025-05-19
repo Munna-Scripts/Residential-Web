@@ -1,5 +1,5 @@
 // AOS JS
-AOS.init({disable: 'mobile'});
+AOS.init();
 
 // Counter Js
 $('.counter').counterUp({
