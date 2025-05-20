@@ -559,7 +559,9 @@ ul .nav-link {
         }
     }
 }
-
+.about_row{
+    overflow: hidden;
+}
 .awards_img img {
     width: 70%;
     margin-bottom: 40px;
