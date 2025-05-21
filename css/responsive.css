@@ -8,9 +8,11 @@
         background-color: white;
         clip-path: polygon(0% 0%, 48% 0, 100% 100%, 96% 100%, 0% 100%);
     }
-    .header_links ul{
+
+    .header_links ul {
         padding-left: 5px;
     }
+
     .social_links {
         display: none !important;
     }
@@ -23,6 +25,29 @@
         transform: translate(0px, -3px);
     }
 
+    .navbar-nav {
+        gap: 5px;
+        margin-top: 20px !important;
+    }
+    .call_button a {
+	justify-content: center;
+}
+.dropdown_menu ul {
+	justify-content: center;
+	padding: 0 !important;
+    gap: 18px;
+
+    & li {
+	font-size: 14px;
+}
+}
+.dropdown_menu ul .dropdown_inner{
+    padding: 20px !important;
+}
+.dri_2 {
+	width: 250px;
+	left: -69px;
+}
     /* -----------------Navbar Ending------------- */
 
 }

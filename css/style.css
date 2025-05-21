@@ -72,6 +72,12 @@ header {
 /* -----------------Header Ending-------------------- */
 
 /* -----------------Navbar Starting-------------------- */
+#navbarSupportedContent{
+    transition: all ease-in-out 300ms;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
 .call_button a {
     background-color: #8EC46B;
     padding: 19px 30px;
@@ -249,7 +255,6 @@ ul .nav-link {
     backdrop-filter: blur(20px);
     top: 50px;
     padding: 30px;
-    z-index: 999;
     border-top-right-radius: 60px;
 }
 
