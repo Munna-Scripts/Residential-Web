@@ -86,6 +86,24 @@
 }
     /* -----------------Banner Ending------------- */
 
+    /* -----------------Card Starting------------- */
+    #cards {
+	height: 100%;
+	margin-top: 60px;
+}
+    .card_des {
+	margin-bottom: 20px;
+}
+    /* -----------------Card Ending------------- */
+
+    /* -----------------About us Starting----------- */
+    #about {
+	margin-top: 50px;
+}
+    /* -----------------About us Ending------------- */
+
+
+
 }
 
 /* -----------------MD Device Start-------------------- */
