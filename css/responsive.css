@@ -121,6 +121,23 @@
 }
     /* -----------------About us Ending------------- */
 
+    /* -----------------Portfolio Starting----------- */
+    #portfolio {
+	padding-top: 0px;
+	background-color: #B0DB9C;
+	padding-bottom: 50px;
+
+    .about_text{
+        transform: translateX(0);
+    }
+}
+.awards_img img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+    /* -----------------Portfolio Ending------------- */
+
+
 
 
 }
