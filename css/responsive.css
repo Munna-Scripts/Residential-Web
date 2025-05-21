@@ -1,4 +1,32 @@
 /* -----------------SM Device Start-------------------- */
+@media (min-width: 0px) and (max-width: 575.98px) {
+
+    /* -----------------Header Starting------------- */
+    .header_shape {
+        width: 30%;
+        height: 40px;
+        background-color: white;
+        clip-path: polygon(0% 0%, 48% 0, 100% 100%, 96% 100%, 0% 100%);
+    }
+    .header_links ul{
+        padding-left: 5px;
+    }
+    .social_links {
+        display: none !important;
+    }
+
+    /* -----------------Header Ending------------- */
+
+    /* -----------------Navbar Starting------------- */
+    .navbar-brand img {
+        width: 150px;
+        transform: translate(0px, -3px);
+    }
+
+    /* -----------------Navbar Ending------------- */
+
+}
+
 /* -----------------MD Device Start-------------------- */
 /* -----------------LG Device Start-------------------- */
 /* -----------------XL Device Start-------------------- */
