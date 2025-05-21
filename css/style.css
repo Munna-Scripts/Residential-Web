@@ -676,6 +676,7 @@ ul .nav-link {
   padding-bottom: 132px;
   position: relative;
   overflow: hidden;
+  z-index: 999;
 }
 #testimonials::after{
     content: '';
@@ -687,6 +688,7 @@ ul .nav-link {
     background-size: cover;
     width: 40%;
     height: 67%;
+    z-index: -1;
 }
 .testimonials_slider{
     z-index: 999;
