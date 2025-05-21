@@ -50,6 +50,42 @@
 }
     /* -----------------Navbar Ending------------- */
 
+    /* -----------------Banner Starting------------- */
+    .banner_text {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: transparent;
+	top: 19px;
+	padding: 15px;
+	border-top-right-radius: 60px;
+}
+.banner_text h1 {
+	font-size: 22px;
+	width: 100%;
+}
+.banner_text h2 {
+	color: white;
+	font-family: "Rubik", sans-serif;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 25px;
+
+    & img {
+	width: 30px;
+}
+}
+.banner_text p {
+	font-size: 13px;
+}
+& .text_buttons {
+	justify-content: start !important;
+	flex-wrap: wrap;
+}
+    /* -----------------Banner Ending------------- */
+
 }
 
 /* -----------------MD Device Start-------------------- */
