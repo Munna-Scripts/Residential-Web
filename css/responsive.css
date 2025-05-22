@@ -616,7 +616,7 @@
 	}
 
 	.dropdown_menu ul {
-		justify-content: center;
+		justify-content: end;
 		padding: 0 !important;
 		gap: 18px;
 
@@ -674,6 +674,13 @@
 	#cards {
 		height: 100%;
 		margin-top: 60px;
+
+		.row{
+			flex-wrap: wrap;
+		}
+		.col-lg-4{
+			flex: 1 0 200px;
+		}
 	}
 
 	.card_des {
@@ -723,34 +730,39 @@
 			transform: translateX(0);
 		}
 	}
-	.portfolio_gallery {
-  & .p_img_1 {
-    width: 320px;
-    flex: 1 0 200px;
-  }
-}
+	.portfolio_gallery{
+		justify-content: center;
+	}
 	.awards_img img {
 		width: 100%;
 		margin-bottom: 40px;
 	}
 
-	/* -----------------Portfolio Ending------------- */
+	/* -----------------Portfolio Ending------------- *
 
-	/* -----------------Cards Starting------------- */
+	/* -----------------Testimonials Starting------------- */
+	.review_card p {
+	font-size: 14px;
+	width: 304px;
+}
 	.review_card {
-		width: 100%;
+		width: 95%;
+	height: 300px;
+	padding: 51px 10px 51px 10px;
 	}
 
 	.review_card p {
 		width: 100%;
 	}
-
+	.card_des p {
+	font-size: clamp(12px, 2vh, 16px);
+}
 	.prr {
-		left: 32%;
+		left: 42%;
 	}
 
 	.nrr {
-		right: 30%;
+		right: 40%;
 	}
 
 	#testimonials::after {
@@ -759,7 +771,7 @@
 		height: 45%;
 	}
 
-	/* -----------------Cards Ending------------- */
+	/* -----------------Testimonials Ending------------- */
 	/* -----------------Faq Starting------------- */
 	.accordion__header {
 		padding-right: 40px;
@@ -815,12 +827,12 @@
 	}
 
 	.row_1 img {
-		width: 80px;
+		width: 105px;
 		margin-bottom: 50px;
 	}
 
 	.row_1 img:nth-child(2) {
-		width: 190px;
+		width: 325px;
 	}
 
 	.footer_row {
@@ -840,19 +852,7 @@
 		width: 100%;
 	}
 
-	.footer_navLinks .footer_icons {
-		flex-wrap: wrap;
-	}
-
-	.Btn {
-		width: 40px;
-		height: 40px;
-	}
-
-	.footer_navLinks .footer_icons a {
-		font-size: 25px;
-	}
-
+	
 	.footer_navLinks button {
 		width: 100%;
 		padding: 10px 0;
