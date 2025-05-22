@@ -136,7 +136,9 @@
 	margin-bottom: 40px;
 }
     /* -----------------Portfolio Ending------------- */
-    .review_card {
+
+    /* -----------------Cards Starting------------- */
+	    .review_card {
 	width: 100%;
 }
 .review_card p {
@@ -153,6 +155,43 @@
 	width: 100%;
 	height: 45%;
 }
+    /* -----------------Cards Ending------------- */
+    /* -----------------Faq Starting------------- */
+	.accordion__header {
+	padding-right: 40px;
+}
+    /* -----------------Faq Ending------------- */
+    /* -----------------Enquire Starting------------- */
+	#reserve {
+	padding-top: 30px;
+	overflow: hidden;
+}
+.reserve_info {
+	padding-left: 0;
+	padding-right: 0;
+}
+.reserve_row .col-lg-6 {
+	padding-left: 13px;
+}
+	.reserve_row{
+		background-color: transparent;
+	}
+	.reserve_img{
+		display: none;
+	}
+	.reserve_info h2 {
+	font-size: 32px;
+	color: white;
+}
+.reserve_info p{
+	color: white;
+	font-size: 16px;
+}
+    /* -----------------Enquire Ending------------- */
+    /* -----------------Footer Starting------------- */
+    /* -----------------Footer Ending------------- */
+
+
 }
 
 /* -----------------MD Device Start-------------------- */
