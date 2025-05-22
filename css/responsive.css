@@ -149,7 +149,12 @@
 			transform: translateX(0);
 		}
 	}
-
+	.portfolio_gallery {
+  & .p_img_1 {
+    width: 320px;
+    flex: 1 0 200px;
+  }
+}
 	.awards_img img {
 		width: 100%;
 		margin-bottom: 40px;
@@ -294,11 +299,9 @@
 
 	/* -----------------Header Starting------------- */
 	.header_shape {
-		width: 30%;
-		height: 40px;
-		background-color: white;
-		clip-path: polygon(0% 0%, 48% 0, 100% 100%, 96% 100%, 0% 100%);
-	}
+	width: 37%;
+	clip-path: polygon(0% 0%, 80% 0, 100% 100%, 96% 100%, 0% 100%);
+}
 
 	.header_links ul {
 		padding-left: 5px;
@@ -312,7 +315,7 @@
 
 	/* -----------------Navbar Starting------------- */
 	.navbar-brand img {
-		width: 150px;
+		width: 190px;
 		transform: translate(0px, -3px);
 	}
 
@@ -347,19 +350,12 @@
 	/* -----------------Navbar Ending------------- */
 
 	/* -----------------Banner Starting------------- */
-	.banner_text {
-		position: absolute;
-		left: 0;
-		width: 100%;
-		background-color: transparent;
-		top: 19px;
-		padding: 15px;
-		border-top-right-radius: 60px;
-	}
 
+	.banner_text {
+	top: 75px;
+}
 	.banner_text h1 {
-		font-size: 22px;
-		width: 100%;
+		font-size: 21px;
 	}
 
 	.banner_text h2 {
@@ -440,7 +436,12 @@
 			transform: translateX(0);
 		}
 	}
-
+	.portfolio_gallery {
+  & .p_img_1 {
+    width: 320px;
+    flex: 1 0 200px;
+  }
+}
 	.awards_img img {
 		width: 100%;
 		margin-bottom: 40px;
