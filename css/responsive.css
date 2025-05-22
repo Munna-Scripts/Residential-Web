@@ -165,6 +165,7 @@
 	#reserve {
 	padding-top: 30px;
 	overflow: hidden;
+	padding-bottom: 15px;
 }
 .reserve_info {
 	padding-left: 0;
@@ -186,9 +187,59 @@
 .reserve_info p{
 	color: white;
 	font-size: 16px;
+	margin-bottom: 40px;
+}
+.reserve_info a {
+	font-size: 16px;
 }
     /* -----------------Enquire Ending------------- */
     /* -----------------Footer Starting------------- */
+	.footer_trademark{
+		display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-around;
+	}
+	.row_1 img {
+	width: 80px;
+	margin-bottom: 50px;
+}
+.row_1 img:nth-child(2) {
+	width: 190px;
+}
+.footer_row {
+	padding-left: 0;
+	margin-top: 25px;
+}
+.footer_navLinks {
+	padding-left: 0px;
+	margin-top: 25px;
+}
+.footer_input input {
+	padding: 15px 107px 14px 15px;
+	margin-top: 10px;
+	outline: none;
+	width: 100%;
+}
+.footer_navLinks .footer_icons {
+	flex-wrap: wrap;
+}
+.Btn {
+	width: 40px;
+	height: 40px;
+}
+.footer_navLinks .footer_icons a {
+	font-size: 25px;
+}
+.footer_navLinks button {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 20px;
+}
+.copyright h2 {
+	font-size: 18px;
+	margin-top: 85px;
+}
     /* -----------------Footer Ending------------- */
 
 
