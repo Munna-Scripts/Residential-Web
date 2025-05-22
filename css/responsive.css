@@ -289,8 +289,297 @@
 
 
 }
-
 /* -----------------MD Device Start-------------------- */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/* -----------------Header Starting------------- */
+	.header_shape {
+		width: 30%;
+		height: 40px;
+		background-color: white;
+		clip-path: polygon(0% 0%, 48% 0, 100% 100%, 96% 100%, 0% 100%);
+	}
+
+	.header_links ul {
+		padding-left: 5px;
+	}
+
+	.social_links {
+		display: none !important;
+	}
+
+	/* -----------------Header Ending------------- */
+
+	/* -----------------Navbar Starting------------- */
+	.navbar-brand img {
+		width: 150px;
+		transform: translate(0px, -3px);
+	}
+
+	.navbar-nav {
+		gap: 5px;
+		margin-top: 20px !important;
+	}
+
+	.call_button a {
+		justify-content: center;
+	}
+
+	.dropdown_menu ul {
+		justify-content: center;
+		padding: 0 !important;
+		gap: 18px;
+
+		& li {
+			font-size: 14px;
+		}
+	}
+
+	.dropdown_menu ul .dropdown_inner {
+		padding: 20px !important;
+	}
+
+	.dri_2 {
+		width: 250px;
+		left: -69px;
+	}
+
+	/* -----------------Navbar Ending------------- */
+
+	/* -----------------Banner Starting------------- */
+	.banner_text {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: transparent;
+		top: 19px;
+		padding: 15px;
+		border-top-right-radius: 60px;
+	}
+
+	.banner_text h1 {
+		font-size: 22px;
+		width: 100%;
+	}
+
+	.banner_text h2 {
+		color: white;
+		font-family: "Rubik", sans-serif;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-bottom: 25px;
+
+		& img {
+			width: 30px;
+		}
+	}
+
+	.banner_text p {
+		font-size: 13px;
+	}
+
+	& .text_buttons {
+		justify-content: start !important;
+		flex-wrap: wrap;
+	}
+
+	/* -----------------Banner Ending------------- */
+
+	/* -----------------Card Starting------------- */
+	#cards {
+		height: 100%;
+		margin-top: 60px;
+	}
+
+	.card_des {
+		margin-bottom: 20px;
+	}
+
+	/* -----------------Card Ending------------- */
+
+	/* -----------------About us Starting----------- */
+	#about {
+		margin-top: 50px;
+	}
+
+	.about_text {
+		padding-top: 44px;
+	}
+
+	.about_text p {
+		margin-top: 30px;
+		margin-bottom: 32px;
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.about_img1 {
+		transform: translateX(0);
+		margin-top: 35px;
+	}
+
+	.about_row2 {
+		margin-top: -10px !important;
+	}
+
+	.about_row2 .about_text {
+		padding-top: 50px;
+	}
+
+	/* -----------------About us Ending------------- */
+
+	/* -----------------Portfolio Starting----------- */
+	#portfolio {
+		padding-top: 0px;
+		background-color: #B0DB9C;
+		padding-bottom: 50px;
+
+		.about_text {
+			transform: translateX(0);
+		}
+	}
+
+	.awards_img img {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	/* -----------------Portfolio Ending------------- */
+
+	/* -----------------Cards Starting------------- */
+	.review_card {
+		width: 100%;
+	}
+
+	.review_card p {
+		width: 100%;
+	}
+
+	.prr {
+		left: 32%;
+	}
+
+	.nrr {
+		right: 30%;
+	}
+
+	#testimonials::after {
+		right: -5px;
+		width: 100%;
+		height: 45%;
+	}
+
+	/* -----------------Cards Ending------------- */
+	/* -----------------Faq Starting------------- */
+	.accordion__header {
+		padding-right: 40px;
+	}
+
+	/* -----------------Faq Ending------------- */
+	/* -----------------Enquire Starting------------- */
+	#reserve {
+		padding-top: 30px;
+		overflow: hidden;
+		padding-bottom: 15px;
+	}
+
+	.reserve_info {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.reserve_row .col-lg-6 {
+		padding-left: 13px;
+	}
+
+	.reserve_row {
+		background-color: transparent;
+	}
+
+	.reserve_img {
+		display: none;
+	}
+
+	.reserve_info h2 {
+		font-size: 32px;
+		color: white;
+	}
+
+	.reserve_info p {
+		color: white;
+		font-size: 16px;
+		margin-bottom: 40px;
+	}
+
+	.reserve_info a {
+		font-size: 16px;
+	}
+
+	/* -----------------Enquire Ending------------- */
+	/* -----------------Footer Starting------------- */
+	.footer_trademark {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		justify-content: space-around;
+	}
+
+	.row_1 img {
+		width: 80px;
+		margin-bottom: 50px;
+	}
+
+	.row_1 img:nth-child(2) {
+		width: 190px;
+	}
+
+	.footer_row {
+		padding-left: 0;
+		margin-top: 25px;
+	}
+
+	.footer_navLinks {
+		padding-left: 0px;
+		margin-top: 25px;
+	}
+
+	.footer_input input {
+		padding: 15px 107px 14px 15px;
+		margin-top: 10px;
+		outline: none;
+		width: 100%;
+	}
+
+	.footer_navLinks .footer_icons {
+		flex-wrap: wrap;
+	}
+
+	.Btn {
+		width: 40px;
+		height: 40px;
+	}
+
+	.footer_navLinks .footer_icons a {
+		font-size: 25px;
+	}
+
+	.footer_navLinks button {
+		width: 100%;
+		padding: 10px 0;
+		font-size: 20px;
+	}
+
+	.copyright h2 {
+		font-size: 18px;
+		margin-top: 85px;
+	}
+
+	/* -----------------Footer Ending------------- */
+
+
+}
 /* -----------------LG Device Start-------------------- */
 /* -----------------XL Device Start-------------------- */
 /* -----------------XXL Device Start-------------------- */
